@@ -3650,8 +3650,15 @@ hr {
 
 .contact-form-main .from-left img {
     width: 100%;
-    height: 837px
+    height: 500px;
+    object-fit: none;
 }
+
+/* Solution */
+.solution{
+    margin-top: 40px;
+}
+/* Solution */
 
 .contact-form-main .form-tittle {
     padding: 111px 51px 0px 67px
@@ -3965,6 +3972,7 @@ hr {
 
 .team-area .single-team .team-img img {
     width: 100%;
+    height: 400px;
     transform: scale(1);
     transition: all 0.6s ease-out 0s
 }
